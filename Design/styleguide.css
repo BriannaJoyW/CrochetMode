@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 25px;
+}
+button {
+    background-color: #DCDAFB;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+.inputLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+input.inputField {
+    padding: 5px;
+    border: .5px solid #FAEFFA;
+}
+div.box {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+#primary1 {
+    background-color: #78247A;
+}
+#primary2 {
+    background-color: #0C0975;
+}
+#primary3 {
+    background-color: #FAEFFA;
+}
+#primary4 {
+    background-color: #DCDAFB;
+}
+
+.warning {
+    background-color: #F9FF44;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+}
+.danger {
+    background-color: #F33333;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+.success {
+    background-color: #71CA48;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+svg.svg-inline--fa {
+    color: #78247A;
+    padding: 5px;
+}
+.spacer {
+    margin-top: 25px;
+}
+#footer {
+    border-top: 3px solid #dddddd;
+    margin-top: 60px;
+    padding: 15px;
+    text-align: center;
+}
+.themed-grid-col {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+  }
+  
+  .themed-container {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+  }
